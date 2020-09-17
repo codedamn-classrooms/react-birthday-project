@@ -1,0 +1,14 @@
+{
+	"scripts": {
+		"start": "snowpack dev"
+	},
+	"dependencies": {
+		"react": "16.13.1",
+		"react-dom": "16.13.1"
+	},
+	"devDependencies": {
+		"@snowpack/app-scripts-react": "1.10.0",
+		"@snowpack/plugin-react-refresh": "^2.1.0",
+		"snowpack": "2.11.0"
+	}
+}
