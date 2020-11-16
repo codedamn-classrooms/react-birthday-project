@@ -1,19 +1,8 @@
-import React from 'react'
-import logo from './logo.svg'
-import './App.css'
-
+import React, { useState } from 'react'
+import data from './data'
+import List from './List'
 function App() {
-	return (
-		<div className="App">
-			<header className="App-header">
-				<img src={logo} className="App-logo" alt="logo" />
-				<p>
-					Edit <code>src/App.jsx</code> and save to reload.
-				</p>
-				<span className="App-link">Hello from codedamn :)</span>
-			</header>
-		</div>
-	)
+	return <h2>reminder project setup</h2>
 }
 
 export default App
