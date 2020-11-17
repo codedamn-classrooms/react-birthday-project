@@ -1,13 +1,12 @@
 import React from 'react'
 
 // accept props here
-const List = () => {
+const List = (props) => {
+	const { people } = props
 	// Map over prop "people" and display only the names in any way you like
-	return (
-		<>
-			<h2>list component</h2>
-		</>
-	)
+	return people.map((item) => {
+		return <p key={item.id}>{item.name}</p>
+	})
 }
 
 export default List
