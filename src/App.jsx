@@ -6,9 +6,9 @@ function App() {
 		<main>
 			<section className="container">
 				{/* Make change to "0" here */}
-				<h3>0 birthdays today</h3>
+				<h3>{data.length} birthdays today</h3>
 				{/* pass data to list component */}
-				<List />
+				<List people={data} />
 			</section>
 		</main>
 	)
